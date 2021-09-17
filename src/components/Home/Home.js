@@ -55,7 +55,7 @@ const Home = () => {
             <b>What are you waiting for? Go grab yours now!</b>
           </div>
           <div className="col-sm-6">
-            <img src="./Product2.jpg" width="400" height="500" alt="" />
+            <img src="./Product2.jpg" width="300" height="500" alt="" />
           </div>
         </div>
       </Container>
