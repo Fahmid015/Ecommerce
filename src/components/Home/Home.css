@@ -1,0 +1,29 @@
+.home {
+    object-fit: contain;
+    margin: 1rem 0;
+    background-color: #f5f5f5;
+}
+
+.carousel-caption {
+    margin-right: auto;
+}
+
+.carousel-control-next {
+    display: none !important;
+}
+
+.carousel-control-prev {
+    display: none !important;
+}
+
+.belowBanner {
+    text-align: center;
+    background: linear-gradient(90deg,#1a90ff,#cce6ff);
+    padding: 2rem 0;
+}
+
+.product {
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}

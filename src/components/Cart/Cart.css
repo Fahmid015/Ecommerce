@@ -1,0 +1,93 @@
+.MuiDrawer-paper {
+    width: 700px;
+}
+
+.cartHeader {
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-bottom: 2px solid lightblue;
+}
+
+.cartContent {
+    display: flex;
+    justify-content: center;
+}
+
+.emptyCart {
+          position: absolute;
+          top: "50%";
+          bottom: 50%;
+          display: "flex";
+          flex-direction: "column";
+          text-align: center;
+}
+
+.cartItem {
+    display: flex !important;
+    width: 100% !important;
+    align-items: center !important;
+    
+}
+
+.cartDetails {
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.cartActions{
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MuiInputBase-input {
+  -webkit-appearance: none !important;
+}
+
+.cartItemTitle {
+    width: 200px !important;
+}
+
+/* medai queries */
+
+@media only screen and (max-width: 1350px)  {
+    .MuiDrawer-paper {
+        width: 750px
+    }
+}
+
+@media only screen and (max-width: 1024px)  {
+    .MuiDrawer-paper {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 900px)  {
+    .MuiDrawer-paper {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 620px)  {
+    .MuiDrawer-paper {
+        width: 100%;
+    }
+    .cartItem {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+    .cartDetails {
+        margin-left: -1rem;
+        margin-top: 0;
+    }
+
+}

@@ -1,0 +1,42 @@
+.navbar {
+    background: linear-gradient(180deg,#1a90ff,#cce6ff);
+    border-color: white;
+}
+
+img {
+    object-fit: contain;
+}
+
+#floatingInput{
+    border-color: white;
+}
+
+.input-group {
+    align-items: center !important;
+}
+
+.MuiTypography-root {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.searchIcon {
+    color: lightskyblue !important;
+    opacity: 2;
+}
+
+.searchButton {
+    background-color: white !important;
+    border-color: white !important;
+    border-left: 1px groove !important ;
+}
+
+.searchButton:focus {
+    box-shadow: none !important;
+}
+
+.dropdown-toggle {
+    margin-right: 1px !important;
+    padding-top: 9px !important;
+    border-radius: 5px 0 0 5px !important;
+}
