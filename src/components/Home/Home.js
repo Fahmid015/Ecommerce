@@ -31,7 +31,7 @@ const Home = () => {
           </Link>
         </div>
         <div
-          className="product row"
+          className="product1 row"
           style={{
             paddingBottom: "2rem",
             margin: "2rem 0",
@@ -49,7 +49,10 @@ const Home = () => {
             </b>
           </div>
         </div>
-        <div className="product row" style={{ margin: "2rem 0" }}>
+        <div
+          className="product2 row"
+          style={{ margin: "2rem 0", borderTop: "3px solid lightskyblue" }}
+        >
           <div className="col-md-6">
             <h4>Dashing jackets only in The Street Store</h4>
             <b>What are you waiting for? Go grab yours now!</b>
