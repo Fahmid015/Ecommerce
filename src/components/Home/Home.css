@@ -22,8 +22,14 @@
     padding: 2rem 0;
 }
 
-.product {
+.product1 {
+    background: linear-gradient(45deg, lightskyblue 50%, white 50%);
     justify-content: space-evenly;
-    align-content: center;
+    align-items: center;
+}
+
+.product2 {
+    background: linear-gradient(135deg, white 50%, lightskyblue 50%);
+    justify-content: space-evenly;
     align-items: center;
 }
